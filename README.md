@@ -7,7 +7,7 @@ Python
 
 Streamlit
 
-OpenAI API (gpt-4o-mini, dall-e-3)
+OpenAI API (gpt-4o-mini, gpt-image-2)
 
 실행 방법
 
