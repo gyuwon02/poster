@@ -3,7 +3,7 @@ import base64
 from openai import OpenAI
 import streamlit as st
 
-os.environ["OPENAI_API_KEY"] = '여기에 키를 입력하세요.'
+os.environ["OPENAI_API_KEY"] = st.secrets['OPENAI_API_KEY']
 
 client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
